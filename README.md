@@ -6,7 +6,7 @@ _ITMO University, 2025_
 
 ---
 
-## 🚀 Overview
+## Overview
 
 This project investigates an alternative representation of 3D data for deep learning — using T-spline-like surfaces (via Rhino3D SubD) to generate compact, adaptive point clouds as input for neural networks (PointNet).
 
@@ -17,7 +17,7 @@ The goal:
 
 ---
 
-## 🏗️ Pipeline
+## Pipeline
 
 1. **3D Model Preprocessing**  
    - Convert mesh to SubD surface (Rhino3D, manual/automated)
@@ -39,7 +39,7 @@ The goal:
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 ```
 T-spline-3D-CNN/
 ├── pointnet/
@@ -61,7 +61,7 @@ T-spline-3D-CNN/
 ```
 ---
 
-## ⚙️ Getting Started
+## Getting Started
 
 1. **Install dependencies**
    pip install -r requirements.txt
@@ -81,7 +81,7 @@ T-spline-3D-CNN/
 
 ---
 
-## 💡 Credits
+## Credits
 
 - Model: [PointNet (Qi et al., 2017)](https://arxiv.org/abs/1612.00593)
 - Geometry: Rhino3D, Trimesh
