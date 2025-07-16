@@ -1,0 +1,13 @@
+model:
+  type: PointNet
+  num_classes: 40
+  use_transform: true
+
+data:
+  input_path: data/train_data.npz
+  batch_size: 16
+
+training:
+  epochs: 20
+  lr: 0.001
+  checkpoint_path: models/best.pth
